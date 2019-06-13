@@ -1,0 +1,32 @@
+uname=collis
+token=6da84b44781397d7
+dstart=2018-07-21
+dend=2018-07-31
+python ~/src/armlive_getfiles/src/getFiles.py -u $uname:$token -ds sgpxsaprsecI4.00 -s $dstart -e $dend
+python ~/src/armlive_getfiles/src/getFiles.py -u $uname:$token -ds sgpxsaprsecI5.00 -s $dstart -e $dend
+python ~/src/armlive_getfiles/src/getFiles.py -u $uname:$token -ds sgpxsaprsecI6.00 -s $dstart -e $dend
+python ~/src/armlive_getfiles/src/getFiles.py -u $uname:$token -ds sgpxsaprrhiI4.00 -s $dstart -e $dend
+python ~/src/armlive_getfiles/src/getFiles.py -u $uname:$token -ds sgpxsaprrhiI5.00 -s $dstart -e $dend
+python ~/src/armlive_getfiles/src/getFiles.py -u $uname:$token -ds sgpxsaprrhiI6.00 -s $dstart -e $dend
+
+
+stage_arm_data --to Stratus --datastream sgpxsaprsecI4.00 --start "2018-05-10 00:00:00" --end "2018-05-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprsecI5.00 --start "2018-05-10 00:00:00" --end "2018-05-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprsecI6.00 --start "2018-05-10 00:00:00" --end "2018-05-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI4.00 --start "2018-05-10 00:00:00" --end "2018-05-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI5.00 --start "2018-05-10 00:00:00" --end "2018-05-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI6.00 --start "2018-05-10 00:00:00" --end "2018-05-28 00:00:00"
+
+stage_arm_data --to Stratus --datastream sgpxsaprsecI4.00 --start "2018-05-28 00:00:00" --end "2018-06-08 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprsecI5.00 --start "2018-05-28 00:00:00" --end "2018-06-08 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprsecI6.00 --start "2018-05-28 00:00:00" --end "2018-06-08 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI4.00 --start "2018-05-28 00:00:00" --end "2018-06-08 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI5.00 --start "2018-05-28 00:00:00" --end "2018-06-08 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI6.00 --start "2018-05-28 00:00:00" --end "2018-06-08 00:00:00"
+
+stage_arm_data --to Stratus --datastream sgpxsaprsecI4.00 --start "2018-06-01 00:00:00" --end "2018-07-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprsecI5.00 --start "2018-06-01 00:00:00" --end "2018-07-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprsecI6.00 --start "2018-06-01 00:00:00" --end "2018-07-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI4.00 --start "2018-06-01 00:00:00" --end "2018-07-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI5.00 --start "2018-06-01 00:00:00" --end "2018-07-28 00:00:00"
+stage_arm_data --to Stratus --datastream sgpxsaprrhiI6.00 --start "2018-06-01 00:00:00" --end "2018-07-28 00:00:00"
